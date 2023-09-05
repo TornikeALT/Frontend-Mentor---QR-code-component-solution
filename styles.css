@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(180, 213, 224);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 10rem auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.wrapper {
+    max-width: 20rem;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.content h2 {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.content p {
+    text-align: center;
+    color: gray;
+    font-size: 17px;
+    padding-bottom: 1rem;
+}
+
+.attribution {
+    text-align: center;
+}
